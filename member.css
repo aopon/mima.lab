@@ -1,0 +1,132 @@
+
+#wrap p{
+  font-size: 14px;
+}
+
+#header{
+  background-image: url("img/bar.jpg");
+}
+
+#header .inner h1{
+  color: #1c262f;
+}
+
+#header .inner ul li a{
+  color: #1c262f;
+}
+
+#main{
+  width: 960px;
+  margin: 50px auto;
+}
+
+#title{
+  width: 20%;
+  float: left;
+}
+
+#title p{
+  font-size: 12px;
+}
+
+#title p span{
+  font-size: 18px;
+}
+
+.text1{
+  width: 300px;
+  float: left;
+  clear: both;
+}
+
+.text1 img{
+  float: left;
+  clear: both;
+}
+
+#men_con1{
+  float:left;
+  width: 69%;
+  margin: 0 auto;
+  margin-left: 100px;
+}
+
+#men_con1 h1{
+  border-bottom: 1px dotted #1c262f;
+}
+
+#men_con1 h3{
+  font-size: 12px;
+  color: #E95513;
+}
+
+.text2{
+width: 250px;
+float: left;
+margin-top: 10px;
+margin-left: 70px;
+}
+
+.text2 h3{
+  float: left;
+  width: 15%;
+  padding-right: 5px;
+  border-right: 1px dotted #1c262f;
+}
+
+.text2 p{
+  float: left;
+  width: 70%;
+  margin-left: 10px;
+}
+
+.text3{
+  clear: both;
+}
+
+#return{
+  width: 100px;
+  height: 30px
+  margin: auto 0px;
+  position: relative;
+  top: -80px;
+  background-image: url("img/return2.png") no-repeat;
+}
+
+#return a img{
+  position: relative;
+  top: 25px;
+  margin-left: 100px;
+}
+
+#return a{
+  text-decoration: none;
+  color: #1c262f;
+}
+
+#return a:hover{
+  text-decoration: none;
+  color: #C30D22;
+}
+
+#demo{
+}
+
+#demo a{
+  margin-left: 38px;
+  width:60px;
+  height:30px;
+  text-decoration: none;
+  color: #1c262f;
+  font-size: 10px;
+  padding: 5px 10px;
+  border: 1px #1c262f dotted;
+  border-radius:3px;
+  text-align: center; /*指定すれば上下の中央配置が可能*/
+  line-height: 30px;
+}
+
+#demo a:hover{
+  background-color: rgba(33, 33, 33, 0.9);
+  color: #ffffff;
+}
